@@ -6,7 +6,7 @@ export const ServiziIcon = () => {
   return (
     <div
       className={` hover:fill-yellowtsd hover:text-yellowtsd ${
-        location === "servizi"
+        location === "/servizi"
           ? "fill-yellowtsd text-yellowtsd"
           : "fill-white hover:cursor-pointer"
       }`}

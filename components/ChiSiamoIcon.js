@@ -5,7 +5,7 @@ export const ChiSiamoIcon = () => {
   const location = router.pathname;
   return (
     <div className={` hover:stroke-yellowtsd hover:text-yellowtsd ${
-      location === "chisiamo"
+      location === "/chisiamo"
         ? "stroke-yellowtsd text-yellowtsd"
         : "stroke-white hover:cursor-pointer"
     }`}>

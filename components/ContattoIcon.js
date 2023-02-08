@@ -6,7 +6,7 @@ export const ContattoIcon = () => {
   return (
     <div
       className={` hover:stroke-yellowtsd hover:text-yellowtsd ${
-        location === "contatto"
+        location === "/contatto"
           ? "stroke-yellowtsd text-yellowtsd"
           : "stroke-white hover:cursor-pointer"
       }`}

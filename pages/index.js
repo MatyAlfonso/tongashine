@@ -2,7 +2,7 @@ import { HeroImage } from "../components/HeroImage";
 import { Layout } from "../components/Layout";
 import { Button } from "../components/Button";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <Layout>
       <div className="flex flex-col h-[calc(100vh-120px)] xs:h-[calc(100vh-140px)] relative">
@@ -14,7 +14,7 @@ export default function Home() {
           <h3 className="text-redtsd text-2xl font-bold text-center m-2">
             ¡FAI TORNARE LA TUA <br /> AUTO COME NUOVA!
           </h3>
-          <Button text={"SCOPRI I NOSTRI SERVIZI"} />
+          <Button text={"SCOPRI I NOSTRI SERVIZI"} href={`/servizi`} />
         </div>
       </div>
     </Layout>
