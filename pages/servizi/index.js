@@ -1,14 +1,27 @@
+import { useState, useEffect } from "react";
 import { Layout } from "../../components/Layout";
 import { Title } from "../../components/Title";
 import { Service } from "../../components/Service";
 
-export default function ServiziPage({ data }) {
+export default function ServiziPage() {
+  const [services, setServices] = useState([]);
+
+  const fetchServices = async () => {
+    const res = await fetch("/api/servizi");
+    const data = await res.json();
+    setServices(data.services);
+  };
+
   const handleScrollToTop = () => {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
   };
+
+  useEffect(() => {
+    fetchServices();
+  }, []);
 
   return (
     <Layout>
@@ -24,7 +37,7 @@ export default function ServiziPage({ data }) {
         </svg>
       </button>
       <Title title={"I NOSTRI SERVIZI"} />
-      {data.services.map((service) => (
+      {services.map((service) => (
         <Service
           key={service.id}
           title={service.title}
@@ -36,12 +49,12 @@ export default function ServiziPage({ data }) {
           src={service.src}
         />
       ))}
-      <div className='m-20'>.</div>
+      <div className="m-20">.</div>
     </Layout>
   );
 }
 
-export async function getStaticProps() {
+/* export async function getStaticProps() {
   const res = await fetch(`${process.env.BASE_FETCH_URL}api/servizi`);
   const data = await res.json();
   return {
@@ -49,4 +62,4 @@ export async function getStaticProps() {
       data,
     },
   };
-}
+} */
