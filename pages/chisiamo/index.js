@@ -1,13 +1,12 @@
 import Image from "next/image";
+import {Title} from "../../components/Title";
 import { Layout } from "../../components/Layout";
 
 export default function ChisiamoPage() {
   return (
     <Layout>
       <div>
-        <h1 className="text-yellowtsd text-4xl font-bold italic m-4">
-          CHI SIAMO
-        </h1>
+        <Title title={'CHI SIAMO'} />
         <p className="text-white text-xl m-4">
           Siamo un'azienda che vanta più di 10 anni di esperienza nel settore
           del Car Detailing. <br />

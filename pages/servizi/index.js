@@ -1,5 +1,5 @@
 import { Layout } from "../../components/Layout";
-import { Button } from "../../components/Button";
+import { Title } from "../../components/Title";
 import { Service } from "../../components/Service";
 
 export default function ServiziPage({ data }) {
@@ -23,9 +23,7 @@ export default function ServiziPage({ data }) {
           />
         </svg>
       </button>
-      <h1 className="text-yellowtsd text-center text-4xl font-bold italic m-8">
-        I NOSTRI SERVIZI
-      </h1>
+      <Title title={'I NOSTRI SERVIZI'}/>
       {data.services.map((service) => (
         <Service
           key={service.id}
