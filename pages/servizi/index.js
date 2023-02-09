@@ -42,7 +42,7 @@ export default function ServiziPage({ data }) {
 }
 
 export async function getStaticProps() {
-  const res = await fetch(`${process.env.BASE_FETCH_URL}/api/servizi`);
+  const res = await fetch(`${process.env.BASE_FETCH_URL}api/servizi`);
   const data = await res.json();
   return {
     props: {
