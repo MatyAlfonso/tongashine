@@ -8,11 +8,11 @@ export default function ChisiamoPage() {
       <div>
         <Title title={'CHI SIAMO'} />
         <p className="text-white text-xl m-4">
-          Siamo un'azienda che vanta più di 10 anni di esperienza nel settore
+          Siamo un&apos;azienda che vanta più di 10 anni di esperienza nel settore
           del Car Detailing. <br />
           <br />
           Siamo certificati IDA (International Detailing Association) e ci
-          distinguiamo per l'alta qualità del nostro lavoro artigianale,
+          distinguiamo per l&apos;alta qualità del nostro lavoro artigianale,
           personalizzato e curato in ogni dettaglio. <br />
           <br />
           La tua comodità è importante per noi, per questo offriamo servizi a
@@ -29,7 +29,7 @@ export default function ChisiamoPage() {
             alt="Tonga's Shine - Chi siamo"
           />
           <h2 className="text-white mb-28 p-4 text-center font-['Mr_Dafoe'] text-3xl">
-            “ Esperienza e passione si uniscono <br /> per ottenere il miglior
+            “Esperienza e passione si uniscono <br /> per ottenere il miglior
             risultato”
           </h2>
         </div>

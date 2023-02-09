@@ -72,8 +72,8 @@ export default function handler(req, res) {
           id: 9,
           title: "Trattamento pelle",
           subtitle:
-            "include lavaggio delle sedute e protezione con leather conditioner.",
-          price: [{ piccolo: "€20" }, { medio: "€30" }, { grande: "€45" }],
+            "include lavaggio delle sedute e protezione con nanotech. (Il prezzo varia in base alla quantità di sedili da trattare)",
+          price: [{ standard: "€20" }],
           src: "/img/trattamento-pelle.jpg",
         },
       ],

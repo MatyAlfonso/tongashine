@@ -23,7 +23,7 @@ export default function ServiziPage({ data }) {
           />
         </svg>
       </button>
-      <Title title={'I NOSTRI SERVIZI'}/>
+      <Title title={"I NOSTRI SERVIZI"} />
       {data.services.map((service) => (
         <Service
           key={service.id}
@@ -36,7 +36,7 @@ export default function ServiziPage({ data }) {
           src={service.src}
         />
       ))}
-      <div className="h-1/6">""</div>
+      <div className='m-20'>.</div>
     </Layout>
   );
 }

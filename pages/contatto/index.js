@@ -30,7 +30,7 @@ export default function ContattoPage() {
           <a href="https://www.facebook.com/TongasShineDetailing/">
             <li className="text-white text-xl font-bold italic p-2 hover:text-yellowtsd">
               <BsFacebook className="inline m-2" size={"30"} />
-              <p className="inline">Tonga's shine detailing</p>
+              <p className="inline">Tonga&apos;s shine detailing</p>
             </li>
           </a>
           <a href="mailto:tongashine@gmail.com">
