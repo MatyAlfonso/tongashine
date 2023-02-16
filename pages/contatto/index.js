@@ -9,8 +9,8 @@ export default function ContattoPage() {
   return (
     <Layout>
       <Title title={"CONTATTACI"} />
-      <div className="flex flex-col">
-        <p className="text-white text-center text-2xl font-bold italic w-2/3 m-auto">
+      <div className="flex flex-col h-[calc(100vh-400px)] md:justify-center">
+        <p className="text-white text-center text-2xl font-bold italic w-2/3 mx-auto">
           Scegli il modo che preferisci per comunicarti con noi.
         </p>
         <hr className="m-8 h-1 bg-yellowtsd" />

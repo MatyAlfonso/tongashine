@@ -27,7 +27,7 @@ export default function ServiziPage() {
     <Layout>
       <button
         onClick={handleScrollToTop}
-        className="text-4xl text-yellowtsd bottom-20 right-0 fixed p-6 hover:scale-110"
+        className="text-4xl text-yellowtsd bottom-24 right-0 fixed p-6 hover:scale-110"
       >
         <svg width="64" height="64" viewBox="0 0 64 64">
           <path
@@ -49,7 +49,7 @@ export default function ServiziPage() {
           src={service.src}
         />
       ))}
-      <div className="m-20">.</div>
+      <div className="m-24">.</div>
     </Layout>
   );
 }

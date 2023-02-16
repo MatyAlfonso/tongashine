@@ -10,9 +10,9 @@ export const Service = ({
   src,
 }) => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col md:m-8">
       <Image
-        className="p-6"
+        className="p-6 md:w-8/12 md:m-auto"
         src={src}
         width={1920}
         height={1080}

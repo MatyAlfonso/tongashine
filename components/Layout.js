@@ -24,7 +24,7 @@ export const Layout = ({ children }) => {
 
       <Navbar />
 
-      <main className='h-[calc(100vh-170px)]'>{children}</main>
+      <main className='h-[calc(100vh-170px)] lg:h-screen'>{children}</main>
     </div>
   );
 };

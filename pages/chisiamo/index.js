@@ -7,7 +7,7 @@ export default function ChisiamoPage() {
     <Layout>
       <div>
         <Title title={'CHI SIAMO'} />
-        <p className="text-white text-xl m-4">
+        <p className="text-white text-xl m-4 md:m-8">
           Siamo un&apos;azienda che vanta più di 10 anni di esperienza nel settore
           del Car Detailing. <br />
           <br />
@@ -20,9 +20,9 @@ export default function ChisiamoPage() {
           La soddisfazione del cliente è la nostra massima priorità e ci
           impegniamo a fornire sempre un servizio eccellente.
         </p>
-        <div className="flex flex-col">
+        <div className="flex flex-col lg:items-center">
           <Image
-            className="p-4"
+            className="p-4 md:w-7/12 md:m-auto lg:w-8/12"
             src="/img/chisiamoimg.jpg"
             width={1920}
             height={1080}
