@@ -55,7 +55,7 @@ export const Navbar = () => {
             </Link>
             <Link href="/chisiamo">
               <p
-                className={`font-bold italic whitespace-nowrap ${
+                className={`font-bold italic p-4 whitespace-nowrap ${
                   location === "/chisiamo"
                     ? "text-yellowtsd underline decoration-redtsd decoration-2 underline-offset-4"
                     : "text-white"
@@ -86,16 +86,22 @@ export const Navbar = () => {
                 CONTATTO
               </p>
             </Link>
-            <div className='flex p-4'>
-              <BsFacebook className="inline mx-1 text-white" size={"30"} />
-              <AiOutlineInstagram
-                className="inline mx-1 text-white"
-                size={"30"}
-              />
-              <AiOutlineWhatsApp
-                className="inline mx-1 text-white"
-                size={"30"}
-              />
+            <div className="flex p-4">
+              <a href="https://www.facebook.com/TongasShineDetailing/">
+                <BsFacebook className="inline mx-1 text-white" size={"30"} />
+              </a>
+              <a href="https://www.instagram.com/tongashine/?hl=es">
+                <AiOutlineInstagram
+                  className="inline mx-1 text-white"
+                  size={"30"}
+                />
+              </a>
+              <a href="https://wa.link/prx28v">
+                <AiOutlineWhatsApp
+                  className="inline mx-1 text-white"
+                  size={"30"}
+                />
+              </a>
             </div>
           </div>
         </nav>
