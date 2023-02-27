@@ -10,15 +10,15 @@ export const Service = ({
   src,
 }) => {
   return (
-    <div className="flex flex-col md:m-8 lg:even:flex-row-reverse lg:odd:flex-row 2xl:w-[50%] 2xl:m-auto">
+    <div className="flex flex-col md:m-8 lg:even:flex-row-reverse lg:odd:flex-row xxxl:w-4/6 xxxl:mx-auto xxxl:my-10 2xl:w-[50%] 2xl:m-auto">
       <Image
-        className="p-6 md:w-8/12 md:m-auto lg:w-3/6 xl:w-5/12 2xl:w-5/12"
+        className="lg:flex-1 p-6 md:w-8/12 md:m-auto lg:w-3/6 xl:w-5/12 xxxl:w-4/12 2xl:w-5/12"
         src={src}
         width={1920}
         height={1080}
         alt={`${title} image`}
       />
-      <div className="lg:flex lg:flex-col lg:justify-center 2xl:w-[40%] 2xl:m-auto">
+      <div className="lg:flex lg:flex-col lg:flex-1 lg:justify-center 2xl:w-[40%] 2xl:m-auto">
         <p className="text-redtsd text-4xl text-center font-bold">{title}</p>
         <p className="text-white text-xl text-center font-bold p-4">
           {subtitle}
