@@ -37,11 +37,11 @@ export const Navbar = () => {
   return (
     <>
       {isDesktop ? (
-        <nav className="flex">
-          <Link href="/">
+        <nav className="flex flex-1">
+          <Link href="/" className="w-2/4">
             <TongaShineLogo />
           </Link>
-          <div className="flex p-4 lg:items-center">
+          <div className="flex p-4 lg:items-center w-2/4">
             <Link href="/">
               <p
                 className={`font-bold italic p-4 ${

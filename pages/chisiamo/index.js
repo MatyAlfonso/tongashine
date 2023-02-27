@@ -31,7 +31,7 @@ export default function ChisiamoPage() {
     <Layout>
       {isDesktop ? (
         <>
-          <div className="lg:flex lg:mt-44 lg:mb-20 2xl:w-3/6 2xl:mx-auto">
+          <div className="lg:flex lg:mt-44 lg:mb-20 xxl:w-5/6 xxl:mx-auto 2xl:w-3/6">
             <div className="lg:flex lg:flex-col lg:justify-center xl:pl-10">
               <Title title={"CHI SIAMO"} />
               <p className="text-white text-xl m-4 md:m-8 xl:text-2xl">
@@ -83,7 +83,7 @@ export default function ChisiamoPage() {
           </div>
           <div className="flex flex-col lg:items-center">
             <Image
-              className="p-4 md:w-7/12 md:m-auto lg:w-10/12"
+              className="p-4 md:w-7/12 md:m-auto lg:w-10/12 2xl:w-4/5"
               src="/img/chisiamoimg.jpg"
               width={1920}
               height={1080}
